@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins"sans-serif;
+
+}
+body
+{
+    background: url(pexels-laura-paredis-1047081-12749795.jpg);
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    width:100% ;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container
+{
+    background:white;
+    position: relative;
+    text-align: center;
+    padding: 30px 0px;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    
+}
+.menu
+{
+    position: absolute;
+    padding: 20px 0;
+    left: 40px;
+    right: 40px;
+    width: 20px;
+}
+.setting
+{
+    position: absolute;
+    padding: 30px 0; 
+    right: 40px;
+    width: 25px;
+}
+.profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: white;
+   margin-bottom: 35px;
+   
+}
+.bottom
+{
+    background-color: aqua;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 10px 60px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 50%;
+
+}
+.bottom p{
+    margin-top: -12px;
+    padding: 10px;
+
+}
+.bottom .arrow
+{
+    width: 25px;
+}
+.btn
+{
+    background-color: beige;
+  
+    padding: 15px 60px;
+    border-radius: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+.btn:hover{
+    border: 1px solid black
+}
